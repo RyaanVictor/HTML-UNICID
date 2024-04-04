@@ -1,0 +1,39 @@
+<html>
+	<head>
+		<title>Disney</title>
+	</head>
+	<body>
+		<h1>Disney</h1>
+		<form action="agendaDisney.php"method="post">
+			
+						RESORT:
+			<input name="resort" type="text" value="Disney World Orlando" readonly />
+			<input type="submit" value="Enviar"/> </br></br>
+			
+			Senha:	<input type="password" name="senha" maxlength="10"/> </br></br>
+			<!-- maxlength define o numero maximo de caracteres
+				-->
+				
+			Preenchimento: 1/5
+			<progress max="5" value="1" step="2"></progress>
+			<hr>
+			
+			Nome do responsável:
+			<input type="text" name="responsavel" maxlength="80" size="80" placeholder="Informe nome completo"/>
+			</br></br>
+			
+			N&ordm; de familiares (incluindo crianças):
+			<input type="number" name="familiares" min="1" max="99"/></br>
+			
+			<fieldset>
+				<legend>Sexo</legend>
+				<input type="radio" name="sexo" value="M"/> Masculino
+				<input type="radio" name="sexo" checked value="F"/> Feminino
+			</fieldset> </br>
+			
+			e-mail:
+			<input type="email" name="email" maxlength="100" size="100" required /> </br>
+			
+		</form>
+	</body>
+</html>
