@@ -1,0 +1,35 @@
+body{
+	margin:0px;
+	background: url(https://novoportal.cruzeirodosul.edu.br/static//banners/banners-login/instituicoes/desktop/unicid_tatuape-min.jpg);
+	background-size:cover;
+}
+.menu{
+	display: inline-block;
+	background-color:#009B82;
+	height:50px;
+	width:100%;
+	padding-top:5px;
+	margin:0px;
+	position:fixed;
+}
+#container{
+	padding:40px 5px 5px 10px;
+	margin-left:40px;
+	margin-right:40px;
+	border-radius:20px;
+	background-color:rgba(85, 188, 171,0.8);
+}
+.limenu{
+	list-style:none;
+	display:inline;
+}
+@font-face{
+	font-family:Roboto Slab;
+	src: url(font/robotoslab.ttf);
+}
+a{
+	font-size:18px;
+	font-family:Roboto Slab, Comic Sans MS;
+	padding-right:20px;
+	text-decoration:none;
+}
