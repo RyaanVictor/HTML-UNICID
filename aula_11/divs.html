@@ -1,0 +1,77 @@
+<html>
+	<head> 
+	<meta charset="UTF-8">
+	<title>teste divs </title>
+		<script>
+			function ajustacontainer(){
+				var lateral =
+				document.getElementById("lateralEsq");
+				var container =
+				document.getElementById("conteudo");
+				lateral.style.height=
+				container.clienteHeight + "px";
+			}
+		</script>
+		<style>
+		div{
+	border:1px solid black;
+}
+body{
+	background-image:url(images/fundo.png);
+	background-size:cover;
+	font-family:Calibri;
+	font-size:22px;
+	color:white;
+	text-align:center;
+	margin-top:30px;
+}
+#faixa{
+	background-color:black;
+	color:white;
+	height:25px;
+}
+#cabec{
+	background-color:rgb(91,155,213);
+	height:100px;
+	text-align:center;
+}
+#principal{
+	width:860px;
+	margin:0px;
+	box-shadow:6px 17px 10px -3px rgba(240,192,240,1);
+}
+#lateralEsq{
+	background-color:rgb(102,168,58);
+	width:150px;
+	height:100%;
+	float:left;
+}
+#conteudo{
+	background-color:silver;
+	width:706px;
+	height:100%;
+	float:right;
+}
+#rodape{
+	background-color:rgb(250,195,0);
+	height:40px;
+	clear:both;
+}
+		</style>
+		
+	</head>
+	<body onLoad="ajustacontainer();">
+		<div id="principal">
+		
+			<div id="faixa">Faixa Superior</div>
+			
+			<div id="cabec">Cabeçalho</div>
+			
+			<div id="lateralEsq">Lateral Esquerda</div>
+			
+			<div id="conteudo">Conteúdo</div>
+			
+			<div id="rodape">Rodapé</div>
+		</div>
+	</body>
+</html>
